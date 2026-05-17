@@ -1,0 +1,107 @@
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-14T17:49:47.485646Z"}
+{"event": "\u5e94\u7528\u5173\u95ed", "logger": "app.main", "level": "info", "timestamp": "2026-05-14T17:50:40.463208Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-14T17:53:10.064923Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-14T17:53:10.064923Z"}
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+{"doc_id": "5c83dece-20e0-49bb-8d2f-82eafdee4cb2", "filename": "test.pdf", "event": "\u6536\u5230\u6587\u6863\u4e0a\u4f20", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T17:59:56.121249Z"}
+{"doc_id": "5c83dece-20e0-49bb-8d2f-82eafdee4cb2", "page_count": 4, "event": "\u5c0f\u6587\u4ef6\u540c\u6b65\u5904\u7406", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T17:59:56.761330Z"}
+{"doc_id": "5c83dece-20e0-49bb-8d2f-82eafdee4cb2", "filename": "test.pdf", "event": "\u5f00\u59cb\u5904\u7406\u6587\u6863", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T17:59:56.761330Z"}
+{"doc_id": "5c83dece-20e0-49bb-8d2f-82eafdee4cb2", "filename": "test.pdf", "event": "\u5f00\u59cb\u89e3\u6790 PDF", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-14T17:59:56.761330Z"}
+Going to convert document batch...
+{"doc_id": "5c83dece-20e0-49bb-8d2f-82eafdee4cb2", "error": "An error happened while trying to locate the files on the Hub and we cannot find the appropriate snapshot folder for the specified revision on the local disk. Please check your internet connection and try again.", "event": "PDF \u89e3\u6790\u5931\u8d25", "logger": "app.parser.pdf_parser", "level": "error", "timestamp": "2026-05-14T18:00:40.402854Z"}
+{"doc_id": "5c83dece-20e0-49bb-8d2f-82eafdee4cb2", "error": "\u65e0\u6cd5\u89e3\u6790 PDF \u6587\u4ef6: test.pdf, \u9519\u8bef: An error happened while trying to locate the files on the Hub and we cannot find the appropriate snapshot folder for the specified revision on the local disk. Please check your internet connection and try again.", "event": "\u6587\u6863\u89e3\u6790\u5931\u8d25", "logger": "app.core.document_service", "level": "error", "timestamp": "2026-05-14T18:00:40.402854Z"}
+{"doc_id": "911633a6-86ca-416d-8c37-8e733d8c64d8", "filename": "test.pdf", "event": "\u6536\u5230\u6587\u6863\u4e0a\u4f20", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T18:09:41.656721Z"}
+{"doc_id": "911633a6-86ca-416d-8c37-8e733d8c64d8", "page_count": 4, "event": "\u5c0f\u6587\u4ef6\u540c\u6b65\u5904\u7406", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T18:09:41.720073Z"}
+{"doc_id": "911633a6-86ca-416d-8c37-8e733d8c64d8", "filename": "test.pdf", "event": "\u5f00\u59cb\u5904\u7406\u6587\u6863", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T18:09:41.720073Z"}
+{"doc_id": "911633a6-86ca-416d-8c37-8e733d8c64d8", "filename": "test.pdf", "event": "\u5f00\u59cb\u89e3\u6790 PDF", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-14T18:09:41.720073Z"}
+Going to convert document batch...
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+Download complete
+Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+Download complete.
+Processing document test.pdf
+Finished converting document test.pdf in 253.72 seconds.
+{"doc_id": "911633a6-86ca-416d-8c37-8e733d8c64d8", "error": "'ProvenanceItem' object has no attribute 'get'", "event": "PDF \u89e3\u6790\u5931\u8d25", "logger": "app.parser.pdf_parser", "level": "error", "timestamp": "2026-05-14T18:13:55.803134Z"}
+{"doc_id": "911633a6-86ca-416d-8c37-8e733d8c64d8", "error": "\u65e0\u6cd5\u89e3\u6790 PDF \u6587\u4ef6: test.pdf, \u9519\u8bef: 'ProvenanceItem' object has no attribute 'get'", "event": "\u6587\u6863\u89e3\u6790\u5931\u8d25", "logger": "app.core.document_service", "level": "error", "timestamp": "2026-05-14T18:13:55.803134Z"}
+{"question": "?????????????", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-14T18:14:51.458320Z"}
+{"error": "HTTPSConnectionPool(host='openaipublic.blob.core.windows.net', port=443): Max retries exceeded with url: /encodings/cl100k_base.tiktoken (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)')))", "event": "\u68c0\u7d22\u8282\u70b9\u5f02\u5e38", "logger": "app.core.agent", "level": "error", "timestamp": "2026-05-14T18:14:56.542455Z"}
+{"event": "\u68c0\u7d22\u7ed3\u679c\u4e3a\u7a7a\uff0c\u8df3\u8fc7\u751f\u6210", "logger": "app.core.agent", "level": "warning", "timestamp": "2026-05-14T18:14:56.542455Z"}
+{"question": "?????????????", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-14T18:16:22.257164Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 401 Unauthorized"
+{"error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': '9e9b4f39-1243-9b10-b4eb-3aa5615aa897'}", "event": "\u68c0\u7d22\u8282\u70b9\u5f02\u5e38", "logger": "app.core.agent", "level": "error", "timestamp": "2026-05-14T18:16:24.451617Z"}
+{"event": "\u68c0\u7d22\u7ed3\u679c\u4e3a\u7a7a\uff0c\u8df3\u8fc7\u751f\u6210", "logger": "app.core.agent", "level": "warning", "timestamp": "2026-05-14T18:16:24.451617Z"}
+{"question": "?????????????", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-14T18:16:33.777542Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 401 Unauthorized"
+{"error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': '846f5230-bc9a-9394-844e-6930a8750f62'}", "event": "\u68c0\u7d22\u8282\u70b9\u5f02\u5e38", "logger": "app.core.agent", "level": "error", "timestamp": "2026-05-14T18:16:34.076460Z"}
+{"event": "\u68c0\u7d22\u7ed3\u679c\u4e3a\u7a7a\uff0c\u8df3\u8fc7\u751f\u6210", "logger": "app.core.agent", "level": "warning", "timestamp": "2026-05-14T18:16:34.076460Z"}
+{"question": "?????????????", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-14T18:16:46.930475Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 401 Unauthorized"
+{"error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': 'e8661b3c-3c39-946c-9da1-5c9de74edca3'}", "event": "\u68c0\u7d22\u8282\u70b9\u5f02\u5e38", "logger": "app.core.agent", "level": "error", "timestamp": "2026-05-14T18:16:46.978934Z"}
+{"event": "\u68c0\u7d22\u7ed3\u679c\u4e3a\u7a7a\uff0c\u8df3\u8fc7\u751f\u6210", "logger": "app.core.agent", "level": "warning", "timestamp": "2026-05-14T18:16:46.978934Z"}
+{"doc_id": "45d28faa-a244-414a-bf1b-8d140d5d6ca6", "filename": "test.pdf", "event": "\u6536\u5230\u6587\u6863\u4e0a\u4f20", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T18:18:49.727501Z"}
+{"doc_id": "45d28faa-a244-414a-bf1b-8d140d5d6ca6", "page_count": 4, "event": "\u5c0f\u6587\u4ef6\u540c\u6b65\u5904\u7406", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T18:18:49.743128Z"}
+{"doc_id": "45d28faa-a244-414a-bf1b-8d140d5d6ca6", "filename": "test.pdf", "event": "\u5f00\u59cb\u5904\u7406\u6587\u6863", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T18:18:49.743128Z"}
+{"doc_id": "45d28faa-a244-414a-bf1b-8d140d5d6ca6", "filename": "test.pdf", "event": "\u5f00\u59cb\u89e3\u6790 PDF", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-14T18:18:49.743128Z"}
+Going to convert document batch...
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Processing document test.pdf
+Finished converting document test.pdf in 120.22 seconds.
+{"doc_id": "45d28faa-a244-414a-bf1b-8d140d5d6ca6", "error": "'ProvenanceItem' object has no attribute 'get'", "event": "PDF \u89e3\u6790\u5931\u8d25", "logger": "app.parser.pdf_parser", "level": "error", "timestamp": "2026-05-14T18:20:50.334343Z"}
+{"doc_id": "45d28faa-a244-414a-bf1b-8d140d5d6ca6", "error": "\u65e0\u6cd5\u89e3\u6790 PDF \u6587\u4ef6: test.pdf, \u9519\u8bef: 'ProvenanceItem' object has no attribute 'get'", "event": "\u6587\u6863\u89e3\u6790\u5931\u8d25", "logger": "app.core.document_service", "level": "error", "timestamp": "2026-05-14T18:20:50.334343Z"}
+{"event": "\u5e94\u7528\u5173\u95ed", "logger": "app.main", "level": "info", "timestamp": "2026-05-14T18:21:50.958480Z"}
+{"event": "\u5e94\u7528\u5173\u95ed", "logger": "app.main", "level": "info", "timestamp": "2026-05-14T18:21:50.958480Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-14T18:22:07.137398Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-14T18:22:07.137398Z"}
+{"doc_id": "e1fb3e47-2bd0-4a77-8010-3511bd040aa7", "filename": "test.pdf", "event": "\u6536\u5230\u6587\u6863\u4e0a\u4f20", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T18:22:10.267191Z"}
+{"doc_id": "e1fb3e47-2bd0-4a77-8010-3511bd040aa7", "page_count": 4, "event": "\u5c0f\u6587\u4ef6\u540c\u6b65\u5904\u7406", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T18:22:10.425274Z"}
+{"doc_id": "e1fb3e47-2bd0-4a77-8010-3511bd040aa7", "filename": "test.pdf", "event": "\u5f00\u59cb\u5904\u7406\u6587\u6863", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T18:22:10.425274Z"}
+{"doc_id": "e1fb3e47-2bd0-4a77-8010-3511bd040aa7", "filename": "test.pdf", "event": "\u5f00\u59cb\u89e3\u6790 PDF", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-14T18:22:10.425274Z"}
+Going to convert document batch...
+{"doc_id": "e1fb3e47-2bd0-4a77-8010-3511bd040aa7", "error": "(MaxRetryError(\"HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/ds4sd/docling-models/revision/v2.0.1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)')))\"), '(Request ID: d6a2943f-636a-4f31-afcc-5ebb80208d65)')", "event": "PDF \u89e3\u6790\u5931\u8d25", "logger": "app.parser.pdf_parser", "level": "error", "timestamp": "2026-05-14T18:22:15.813238Z"}
+{"doc_id": "e1fb3e47-2bd0-4a77-8010-3511bd040aa7", "error": "\u65e0\u6cd5\u89e3\u6790 PDF \u6587\u4ef6: test.pdf, \u9519\u8bef: (MaxRetryError(\"HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/ds4sd/docling-models/revision/v2.0.1 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)')))\"), '(Request ID: d6a2943f-636a-4f31-afcc-5ebb80208d65)')", "event": "\u6587\u6863\u89e3\u6790\u5931\u8d25", "logger": "app.core.document_service", "level": "error", "timestamp": "2026-05-14T18:22:15.814187Z"}
+{"doc_id": "e409e75a-7855-4867-b411-1296d14c82fb", "filename": "test.pdf", "event": "\u6536\u5230\u6587\u6863\u4e0a\u4f20", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T18:22:58.936461Z"}
+{"doc_id": "e409e75a-7855-4867-b411-1296d14c82fb", "page_count": 4, "event": "\u5c0f\u6587\u4ef6\u540c\u6b65\u5904\u7406", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T18:22:59.000751Z"}
+{"doc_id": "e409e75a-7855-4867-b411-1296d14c82fb", "filename": "test.pdf", "event": "\u5f00\u59cb\u5904\u7406\u6587\u6863", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T18:22:59.000751Z"}
+{"doc_id": "e409e75a-7855-4867-b411-1296d14c82fb", "filename": "test.pdf", "event": "\u5f00\u59cb\u89e3\u6790 PDF", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-14T18:22:59.000751Z"}
+Going to convert document batch...
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Processing document test.pdf
+Finished converting document test.pdf in 160.25 seconds.
+{"doc_id": "e409e75a-7855-4867-b411-1296d14c82fb", "json_path": "data\\json\\e409e75a-7855-4867-b411-1296d14c82fb.json", "event": "\u89e3\u6790\u7ed3\u679c\u5df2\u4fdd\u5b58", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-14T18:25:39.943489Z"}
+{"doc_id": "e409e75a-7855-4867-b411-1296d14c82fb", "page_count": 4, "text_blocks": 51, "tables": 1, "event": "PDF \u89e3\u6790\u5b8c\u6210", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-14T18:25:39.943489Z"}
+{"doc_id": "e409e75a-7855-4867-b411-1296d14c82fb", "total_chunks": 52, "text_chunks": 51, "table_chunks": 1, "event": "\u6587\u6863\u5206\u5757\u5b8c\u6210", "logger": "app.parser.chunker", "level": "info", "timestamp": "2026-05-14T18:25:39.990433Z"}
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+{"event": "\u521b\u5efa\u65b0 collection: doc_e409e75a-7855-4867-b411-1296d14c82fb", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-14T18:25:40.510289Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 401 Unauthorized"
+{"doc_id": "e409e75a-7855-4867-b411-1296d14c82fb", "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': '75e7d06b-3cf4-98c8-ba71-35ec7ecfcb4a'}", "event": "\u6587\u6863\u5904\u7406\u5f02\u5e38", "logger": "app.core.document_service", "level": "error", "timestamp": "2026-05-14T18:25:40.900101Z"}
+{"doc_id": "600fde32-2fd9-48fe-ab50-ec99994b355c", "filename": "test.pdf", "event": "\u6536\u5230\u6587\u6863\u4e0a\u4f20", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T18:29:23.033462Z"}
+{"doc_id": "600fde32-2fd9-48fe-ab50-ec99994b355c", "page_count": 4, "event": "\u5c0f\u6587\u4ef6\u540c\u6b65\u5904\u7406", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T18:29:23.036064Z"}
+{"doc_id": "600fde32-2fd9-48fe-ab50-ec99994b355c", "filename": "test.pdf", "event": "\u5f00\u59cb\u5904\u7406\u6587\u6863", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T18:29:23.036064Z"}
+{"doc_id": "600fde32-2fd9-48fe-ab50-ec99994b355c", "filename": "test.pdf", "event": "\u5f00\u59cb\u89e3\u6790 PDF", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-14T18:29:23.041589Z"}
+Going to convert document batch...
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Processing document test.pdf
+Finished converting document test.pdf in 161.57 seconds.
+{"doc_id": "600fde32-2fd9-48fe-ab50-ec99994b355c", "json_path": "data\\json\\600fde32-2fd9-48fe-ab50-ec99994b355c.json", "event": "\u89e3\u6790\u7ed3\u679c\u5df2\u4fdd\u5b58", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-14T18:32:05.025380Z"}
+{"doc_id": "600fde32-2fd9-48fe-ab50-ec99994b355c", "page_count": 4, "text_blocks": 51, "tables": 1, "event": "PDF \u89e3\u6790\u5b8c\u6210", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-14T18:32:05.025380Z"}
+{"doc_id": "600fde32-2fd9-48fe-ab50-ec99994b355c", "total_chunks": 52, "text_chunks": 51, "table_chunks": 1, "event": "\u6587\u6863\u5206\u5757\u5b8c\u6210", "logger": "app.parser.chunker", "level": "info", "timestamp": "2026-05-14T18:32:05.090201Z"}
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+{"event": "\u521b\u5efa\u65b0 collection: doc_600fde32-2fd9-48fe-ab50-ec99994b355c", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-14T18:32:05.555311Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 401 Unauthorized"
+{"doc_id": "600fde32-2fd9-48fe-ab50-ec99994b355c", "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': '417e39d8-398d-9325-805a-081f7a1fda89'}", "event": "\u6587\u6863\u5904\u7406\u5f02\u5e38", "logger": "app.core.document_service", "level": "error", "timestamp": "2026-05-14T18:32:05.960775Z"}
+{"doc_id": "72c7b9ad-3cfc-4f2c-854b-d0a59beff62e", "filename": "test.pdf", "event": "\u6536\u5230\u6587\u6863\u4e0a\u4f20", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T18:33:43.545370Z"}
+{"doc_id": "72c7b9ad-3cfc-4f2c-854b-d0a59beff62e", "page_count": 4, "event": "\u5c0f\u6587\u4ef6\u540c\u6b65\u5904\u7406", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T18:33:43.545370Z"}
+{"doc_id": "72c7b9ad-3cfc-4f2c-854b-d0a59beff62e", "filename": "test.pdf", "event": "\u5f00\u59cb\u5904\u7406\u6587\u6863", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-14T18:33:43.545370Z"}
+{"doc_id": "72c7b9ad-3cfc-4f2c-854b-d0a59beff62e", "filename": "test.pdf", "event": "\u5f00\u59cb\u89e3\u6790 PDF", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-14T18:33:43.545370Z"}
+Going to convert document batch...
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Processing document test.pdf
+Finished converting document test.pdf in 163.42 seconds.
+{"doc_id": "72c7b9ad-3cfc-4f2c-854b-d0a59beff62e", "json_path": "data\\json\\72c7b9ad-3cfc-4f2c-854b-d0a59beff62e.json", "event": "\u89e3\u6790\u7ed3\u679c\u5df2\u4fdd\u5b58", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-14T18:36:27.354657Z"}
+{"doc_id": "72c7b9ad-3cfc-4f2c-854b-d0a59beff62e", "page_count": 4, "text_blocks": 51, "tables": 1, "event": "PDF \u89e3\u6790\u5b8c\u6210", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-14T18:36:27.354657Z"}
+{"doc_id": "72c7b9ad-3cfc-4f2c-854b-d0a59beff62e", "total_chunks": 52, "text_chunks": 51, "table_chunks": 1, "event": "\u6587\u6863\u5206\u5757\u5b8c\u6210", "logger": "app.parser.chunker", "level": "info", "timestamp": "2026-05-14T18:36:27.414893Z"}
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+{"event": "\u521b\u5efa\u65b0 collection: doc_72c7b9ad-3cfc-4f2c-854b-d0a59beff62e", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-14T18:36:27.787966Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 401 Unauthorized"
+{"doc_id": "72c7b9ad-3cfc-4f2c-854b-d0a59beff62e", "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': 'a547326c-7827-9460-9707-4afd14c11a32'}", "event": "\u6587\u6863\u5904\u7406\u5f02\u5e38", "logger": "app.core.document_service", "level": "error", "timestamp": "2026-05-14T18:36:27.879166Z"}

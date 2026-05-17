@@ -1,0 +1,338 @@
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:05:46.720198Z"}
+{"doc_id": "c39f45e6-1df1-4515-9767-79e2d3972f01", "filename": "test.pdf", "event": "\u6536\u5230\u6587\u6863\u4e0a\u4f20", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T03:07:23.766891Z"}
+{"doc_id": "c39f45e6-1df1-4515-9767-79e2d3972f01", "page_count": 4, "event": "\u5c0f\u6587\u4ef6\u540c\u6b65\u5904\u7406", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T03:07:24.593885Z"}
+{"doc_id": "c39f45e6-1df1-4515-9767-79e2d3972f01", "filename": "test.pdf", "event": "\u5f00\u59cb\u5904\u7406\u6587\u6863", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T03:07:24.593885Z"}
+{"doc_id": "c39f45e6-1df1-4515-9767-79e2d3972f01", "filename": "test.pdf", "event": "\u5f00\u59cb\u89e3\u6790 PDF", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T03:07:24.593885Z"}
+Going to convert document batch...
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Processing document test.pdf
+Finished converting document test.pdf in 148.05 seconds.
+{"doc_id": "c39f45e6-1df1-4515-9767-79e2d3972f01", "json_path": "data\\json\\c39f45e6-1df1-4515-9767-79e2d3972f01.json", "event": "\u89e3\u6790\u7ed3\u679c\u5df2\u4fdd\u5b58", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T03:09:54.378577Z"}
+{"doc_id": "c39f45e6-1df1-4515-9767-79e2d3972f01", "page_count": 4, "text_blocks": 51, "tables": 1, "event": "PDF \u89e3\u6790\u5b8c\u6210", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T03:09:54.378577Z"}
+{"doc_id": "c39f45e6-1df1-4515-9767-79e2d3972f01", "total_chunks": 52, "text_chunks": 51, "table_chunks": 1, "event": "\u6587\u6863\u5206\u5757\u5b8c\u6210", "logger": "app.parser.chunker", "level": "info", "timestamp": "2026-05-17T03:09:54.522287Z"}
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+{"event": "\u521b\u5efa\u65b0 collection: doc_c39f45e6-1df1-4515-9767-79e2d3972f01", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-17T03:09:54.964759Z"}
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+{"doc_id": "c39f45e6-1df1-4515-9767-79e2d3972f01", "chunks_added": 52, "collection": "doc_c39f45e6-1df1-4515-9767-79e2d3972f01", "event": "\u6587\u6863\u5411\u91cf\u5df2\u5165\u5e93", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-17T03:09:59.494594Z"}
+{"doc_id": "c39f45e6-1df1-4515-9767-79e2d3972f01", "chunks_count": 52, "event": "\u6587\u6863\u5904\u7406\u5b8c\u6210", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T03:09:59.494594Z"}
+{"question": "\u952e\u7684\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42\u662f\u4ec0\u4e48\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T03:13:06.575052Z"}
+{"error": "'Collection' object has no attribute 'startswith'", "event": "\u68c0\u7d22\u8282\u70b9\u5f02\u5e38", "logger": "app.core.agent", "level": "error", "timestamp": "2026-05-17T03:13:06.702095Z"}
+{"event": "\u68c0\u7d22\u7ed3\u679c\u4e3a\u7a7a\uff0c\u8df3\u8fc7\u751f\u6210", "logger": "app.core.agent", "level": "warning", "timestamp": "2026-05-17T03:13:06.702095Z"}
+{"event": "\u5e94\u7528\u5173\u95ed", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:14:48.335619Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:17:08.559410Z"}
+{"question": "\u952e\u7684\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42\u662f\u4ec0\u4e48\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T03:17:28.818120Z"}
+{"error": "'Collection' object has no attribute 'startswith'", "event": "\u68c0\u7d22\u8282\u70b9\u5f02\u5e38", "logger": "app.core.agent", "level": "error", "timestamp": "2026-05-17T03:17:28.960586Z"}
+{"event": "\u68c0\u7d22\u7ed3\u679c\u4e3a\u7a7a\uff0c\u8df3\u8fc7\u751f\u6210", "logger": "app.core.agent", "level": "warning", "timestamp": "2026-05-17T03:17:28.960586Z"}
+{"event": "\u5e94\u7528\u5173\u95ed", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:18:42.062591Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:19:08.988216Z"}
+{"question": "\u952e\u7684\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42\u662f\u4ec0\u4e48\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T03:19:09.129038Z"}
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+{"chunks_found": 5, "top_score": 0.4674944162479068, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T03:19:09.207824Z"}
+HTTP Request: POST https://api.kimi.com/coding/chat/completions "HTTP/1.1 404 Not Found"
+{"error": "Error code: 404 - {'error': {'message': 'The requested resource was not found', 'type': 'resource_not_found_error'}}", "event": "\u751f\u6210\u8282\u70b9\u5f02\u5e38", "logger": "app.core.agent", "level": "error", "timestamp": "2026-05-17T03:19:09.441795Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:19:37.723756Z"}
+{"question": "\u952e\u7684\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42\u662f\u4ec0\u4e48\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T03:19:42.365760Z"}
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+{"chunks_found": 5, "top_score": 0.4674944162479068, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T03:19:42.458352Z"}
+HTTP Request: POST https://api.kimi.com/coding/chat/completions "HTTP/1.1 404 Not Found"
+{"error": "Error code: 404 - {'error': {'message': 'The requested resource was not found', 'type': 'resource_not_found_error'}}", "event": "\u751f\u6210\u8282\u70b9\u5f02\u5e38", "logger": "app.core.agent", "level": "error", "timestamp": "2026-05-17T03:19:42.588579Z"}
+{"event": "\u5e94\u7528\u5173\u95ed", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:20:51.566307Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:21:22.567544Z"}
+{"question": "\u952e\u7684\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42\u662f\u4ec0\u4e48\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T03:21:29.054204Z"}
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+{"chunks_found": 5, "top_score": 0.4674944162479068, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T03:21:29.132390Z"}
+HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+{"error": "Error code: 401 - {'error': {'message': 'Invalid Authentication', 'type': 'invalid_authentication_error'}}", "event": "\u751f\u6210\u8282\u70b9\u5f02\u5e38", "logger": "app.core.agent", "level": "error", "timestamp": "2026-05-17T03:21:29.466714Z"}
+{"event": "\u5e94\u7528\u5173\u95ed", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:22:38.520436Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:23:04.630400Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:23:37.171592Z"}
+{"question": "\u952e\u7684\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42\u662f\u4ec0\u4e48\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T03:23:42.546410Z"}
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+{"chunks_found": 5, "top_score": 0.4674944162479068, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T03:23:42.621932Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"answer_length": 5, "sources_count": 5, "event": "\u7b54\u6848\u751f\u6210\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T03:23:43.305232Z"}
+{"has_evidence": false, "reason": "\u7b54\u6848\u4e3a\u7a7a\u6216\u8fc7\u77ed", "event": "\u89c4\u5219\u5c42\u62e6\u622a\u89e6\u53d1", "logger": "app.core.self_checker", "level": "info", "timestamp": "2026-05-17T03:23:43.318478Z"}
+{"event": "\u5e94\u7528\u5173\u95ed", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:25:08.640142Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:25:39.893514Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:26:13.940288Z"}
+{"question": "\u952e\u7684\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42\u662f\u4ec0\u4e48\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T03:26:15.029569Z"}
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+{"chunks_found": 5, "top_score": 0.4674944162479068, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T03:26:15.108798Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"answer_length": 5, "sources_count": 5, "event": "\u7b54\u6848\u751f\u6210\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T03:26:15.601358Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"has_evidence": false, "confidence": 0.0, "hallucination_risk": "low", "event": "LLM \u81ea\u68c0\u5b8c\u6210", "logger": "app.core.self_checker", "level": "info", "timestamp": "2026-05-17T03:26:20.181531Z"}
+{"event": "\u5e94\u7528\u5173\u95ed", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:30:27.796651Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:31:05.583862Z"}
+{"doc_id": "3936bdf5-ccb6-4647-b301-1a186a097348", "filename": "test.pdf", "event": "\u6536\u5230\u6587\u6863\u4e0a\u4f20", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T03:31:07.708094Z"}
+{"doc_id": "3936bdf5-ccb6-4647-b301-1a186a097348", "page_count": 4, "event": "\u5c0f\u6587\u4ef6\u540c\u6b65\u5904\u7406", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T03:31:07.787085Z"}
+{"doc_id": "3936bdf5-ccb6-4647-b301-1a186a097348", "filename": "test.pdf", "event": "\u5f00\u59cb\u5904\u7406\u6587\u6863", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T03:31:07.787085Z"}
+{"doc_id": "3936bdf5-ccb6-4647-b301-1a186a097348", "filename": "test.pdf", "event": "\u5f00\u59cb\u89e3\u6790 PDF", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T03:31:07.787085Z"}
+Going to convert document batch...
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Processing document test.pdf
+Finished converting document test.pdf in 136.15 seconds.
+{"doc_id": "3936bdf5-ccb6-4647-b301-1a186a097348", "json_path": "data\\json\\3936bdf5-ccb6-4647-b301-1a186a097348.json", "event": "\u89e3\u6790\u7ed3\u679c\u5df2\u4fdd\u5b58", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T03:33:24.573446Z"}
+{"doc_id": "3936bdf5-ccb6-4647-b301-1a186a097348", "page_count": 4, "text_blocks": 51, "tables": 1, "event": "PDF \u89e3\u6790\u5b8c\u6210", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T03:33:24.573446Z"}
+{"doc_id": "3936bdf5-ccb6-4647-b301-1a186a097348", "total_chunks": 52, "text_chunks": 51, "table_chunks": 1, "event": "\u6587\u6863\u5206\u5757\u5b8c\u6210", "logger": "app.parser.chunker", "level": "info", "timestamp": "2026-05-17T03:33:24.636936Z"}
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+{"event": "\u521b\u5efa\u65b0 collection: doc_3936bdf5-ccb6-4647-b301-1a186a097348", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-17T03:33:25.047108Z"}
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+{"doc_id": "3936bdf5-ccb6-4647-b301-1a186a097348", "chunks_added": 52, "collection": "doc_3936bdf5-ccb6-4647-b301-1a186a097348", "event": "\u6587\u6863\u5411\u91cf\u5df2\u5165\u5e93", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-17T03:33:29.583348Z"}
+{"doc_id": "3936bdf5-ccb6-4647-b301-1a186a097348", "chunks_count": 52, "event": "\u6587\u6863\u5904\u7406\u5b8c\u6210", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T03:33:29.583348Z"}
+{"event": "\u5e94\u7528\u5173\u95ed", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:37:32.833473Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:38:17.440196Z"}
+{"doc_id": "1ae90491-4477-4ff6-8b91-7d208644ee31", "filename": "test.pdf", "event": "\u6536\u5230\u6587\u6863\u4e0a\u4f20", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T03:38:22.313096Z"}
+{"doc_id": "1ae90491-4477-4ff6-8b91-7d208644ee31", "page_count": 4, "event": "\u5c0f\u6587\u4ef6\u540c\u6b65\u5904\u7406", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T03:38:22.376352Z"}
+{"doc_id": "1ae90491-4477-4ff6-8b91-7d208644ee31", "filename": "test.pdf", "event": "\u5f00\u59cb\u5904\u7406\u6587\u6863", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T03:38:22.376352Z"}
+{"doc_id": "1ae90491-4477-4ff6-8b91-7d208644ee31", "filename": "test.pdf", "event": "\u5f00\u59cb\u89e3\u6790 PDF", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T03:38:22.376352Z"}
+Going to convert document batch...
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Processing document test.pdf
+Finished converting document test.pdf in 161.95 seconds.
+{"doc_id": "1ae90491-4477-4ff6-8b91-7d208644ee31", "json_path": "data\\json\\1ae90491-4477-4ff6-8b91-7d208644ee31.json", "event": "\u89e3\u6790\u7ed3\u679c\u5df2\u4fdd\u5b58", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T03:41:05.149228Z"}
+{"doc_id": "1ae90491-4477-4ff6-8b91-7d208644ee31", "page_count": 4, "text_blocks": 51, "tables": 1, "event": "PDF \u89e3\u6790\u5b8c\u6210", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T03:41:05.149228Z"}
+{"doc_id": "1ae90491-4477-4ff6-8b91-7d208644ee31", "total_chunks": 52, "text_chunks": 51, "table_chunks": 1, "event": "\u6587\u6863\u5206\u5757\u5b8c\u6210", "logger": "app.parser.chunker", "level": "info", "timestamp": "2026-05-17T03:41:05.274832Z"}
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+{"event": "\u521b\u5efa\u65b0 collection: doc_1ae90491-4477-4ff6-8b91-7d208644ee31", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-17T03:41:05.988741Z"}
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+{"doc_id": "1ae90491-4477-4ff6-8b91-7d208644ee31", "chunks_added": 52, "collection": "doc_1ae90491-4477-4ff6-8b91-7d208644ee31", "event": "\u6587\u6863\u5411\u91cf\u5df2\u5165\u5e93", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-17T03:41:11.985260Z"}
+{"doc_id": "1ae90491-4477-4ff6-8b91-7d208644ee31", "chunks_count": 52, "event": "\u6587\u6863\u5904\u7406\u5b8c\u6210", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T03:41:11.986241Z"}
+{"event": "\u5e94\u7528\u5173\u95ed", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:44:33.526880Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:45:57.033915Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T03:59:52.997079Z"}
+{"doc_id": "802824a2-4627-478f-941f-ae7a93b5fd71", "filename": "test.pdf", "event": "\u6536\u5230\u6587\u6863\u4e0a\u4f20", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T03:59:58.257293Z"}
+{"doc_id": "802824a2-4627-478f-941f-ae7a93b5fd71", "page_count": 4, "event": "\u5c0f\u6587\u4ef6\u540c\u6b65\u5904\u7406", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T03:59:58.559838Z"}
+{"doc_id": "802824a2-4627-478f-941f-ae7a93b5fd71", "filename": "test.pdf", "event": "\u5f00\u59cb\u5904\u7406\u6587\u6863", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T03:59:58.560842Z"}
+{"doc_id": "802824a2-4627-478f-941f-ae7a93b5fd71", "filename": "test.pdf", "event": "\u5f00\u59cb\u89e3\u6790 PDF", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T03:59:58.560842Z"}
+Going to convert document batch...
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Processing document test.pdf
+Finished converting document test.pdf in 168.71 seconds.
+{"doc_id": "802824a2-4627-478f-941f-ae7a93b5fd71", "json_path": "data\\json\\802824a2-4627-478f-941f-ae7a93b5fd71.json", "event": "\u89e3\u6790\u7ed3\u679c\u5df2\u4fdd\u5b58", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T04:02:50.693685Z"}
+{"doc_id": "802824a2-4627-478f-941f-ae7a93b5fd71", "parser": "docling", "page_count": 4, "text_blocks": 51, "tables": 1, "event": "PDF \u89e3\u6790\u5b8c\u6210", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T04:02:50.709380Z"}
+{"doc_id": "802824a2-4627-478f-941f-ae7a93b5fd71", "total_chunks": 52, "text_chunks": 51, "table_chunks": 1, "event": "\u6587\u6863\u5206\u5757\u5b8c\u6210", "logger": "app.parser.chunker", "level": "info", "timestamp": "2026-05-17T04:02:52.470063Z"}
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+{"event": "\u521b\u5efa\u65b0 collection: doc_802824a2-4627-478f-941f-ae7a93b5fd71", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-17T04:02:55.091596Z"}
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+{"doc_id": "802824a2-4627-478f-941f-ae7a93b5fd71", "chunks_added": 52, "collection": "doc_802824a2-4627-478f-941f-ae7a93b5fd71", "event": "\u6587\u6863\u5411\u91cf\u5df2\u5165\u5e93", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-17T04:03:06.132262Z"}
+{"doc_id": "802824a2-4627-478f-941f-ae7a93b5fd71", "chunks_count": 52, "event": "\u6587\u6863\u5904\u7406\u5b8c\u6210", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T04:03:06.132262Z"}
+{"event": "\u5e94\u7528\u5173\u95ed", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T04:09:22.142997Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T04:10:34.605866Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T04:11:45.007723Z"}
+{"doc_id": "fb8fcf24-9d7a-4be9-bf5c-b25b61cbba88", "filename": "test.pdf", "event": "\u6536\u5230\u6587\u6863\u4e0a\u4f20", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T04:12:55.193957Z"}
+{"doc_id": "fb8fcf24-9d7a-4be9-bf5c-b25b61cbba88", "page_count": 4, "event": "\u5c0f\u6587\u4ef6\u540c\u6b65\u5904\u7406", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T04:12:55.458043Z"}
+{"doc_id": "fb8fcf24-9d7a-4be9-bf5c-b25b61cbba88", "filename": "test.pdf", "event": "\u5f00\u59cb\u5904\u7406\u6587\u6863", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T04:12:55.458043Z"}
+{"event": "docling \u5df2\u542f\u7528 OCR \u6a21\u5f0f\uff08\u8bed\u8a00: ch_sim + en, CPU\uff09", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T04:12:55.473669Z"}
+{"doc_id": "fb8fcf24-9d7a-4be9-bf5c-b25b61cbba88", "filename": "test.pdf", "event": "\u5f00\u59cb\u89e3\u6790 PDF\uff08OCR \u6a21\u5f0f\uff09", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T04:12:55.473669Z"}
+Going to convert document batch...
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+Download complete.
+Processing document test.pdf
+Finished converting document test.pdf in 141.52 seconds.
+{"doc_id": "fb8fcf24-9d7a-4be9-bf5c-b25b61cbba88", "json_path": "data\\json\\fb8fcf24-9d7a-4be9-bf5c-b25b61cbba88.json", "event": "\u89e3\u6790\u7ed3\u679c\u5df2\u4fdd\u5b58", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T04:15:17.979748Z"}
+{"doc_id": "fb8fcf24-9d7a-4be9-bf5c-b25b61cbba88", "parser": "docling-ocr", "page_count": 4, "text_blocks": 51, "tables": 1, "event": "PDF \u89e3\u6790\u5b8c\u6210", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T04:15:17.979748Z"}
+{"doc_id": "fb8fcf24-9d7a-4be9-bf5c-b25b61cbba88", "total_chunks": 52, "text_chunks": 51, "table_chunks": 1, "event": "\u6587\u6863\u5206\u5757\u5b8c\u6210", "logger": "app.parser.chunker", "level": "info", "timestamp": "2026-05-17T04:15:18.104727Z"}
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+{"event": "\u521b\u5efa\u65b0 collection: doc_fb8fcf24-9d7a-4be9-bf5c-b25b61cbba88", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-17T04:15:18.588321Z"}
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+{"doc_id": "fb8fcf24-9d7a-4be9-bf5c-b25b61cbba88", "chunks_added": 52, "collection": "doc_fb8fcf24-9d7a-4be9-bf5c-b25b61cbba88", "event": "\u6587\u6863\u5411\u91cf\u5df2\u5165\u5e93", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-17T04:15:24.757557Z"}
+{"doc_id": "fb8fcf24-9d7a-4be9-bf5c-b25b61cbba88", "chunks_count": 52, "event": "\u6587\u6863\u5904\u7406\u5b8c\u6210", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T04:15:24.757557Z"}
+{"question": "\u952e\u7684\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42\u662f\u4ec0\u4e48\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:15:36.639720Z"}
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+{"chunks_found": 5, "top_score": 0.5760701782364123, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:15:37.431699Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"answer_length": 5, "sources_count": 5, "event": "\u7b54\u6848\u751f\u6210\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:15:38.332374Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"has_evidence": false, "confidence": 0.1, "hallucination_risk": "low", "event": "LLM \u81ea\u68c0\u5b8c\u6210", "logger": "app.core.self_checker", "level": "info", "timestamp": "2026-05-17T04:15:42.011854Z"}
+{"question": "\u952e\u7684\u6297\u62c9\u5f3a\u5ea6\u8981\u6c42\u662f\u591a\u5c11\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:18:09.495154Z"}
+{"chunks_found": 5, "top_score": 0.7501266532261087, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:18:09.511893Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"answer_length": 34, "sources_count": 5, "event": "\u7b54\u6848\u751f\u6210\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:18:10.685234Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"has_evidence": true, "confidence": 0.95, "hallucination_risk": "low", "event": "LLM \u81ea\u68c0\u5b8c\u6210", "logger": "app.core.self_checker", "level": "info", "timestamp": "2026-05-17T04:18:14.062770Z"}
+{"question": "\u952e\u8868\u9762\u4e0d\u5141\u8bb8\u6709\u54ea\u4e9b\u7f3a\u9677\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:18:37.071289Z"}
+{"chunks_found": 5, "top_score": 0.6442683840590331, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:18:37.093819Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"answer_length": 33, "sources_count": 5, "event": "\u7b54\u6848\u751f\u6210\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:18:38.203752Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"has_evidence": true, "confidence": 0.95, "hallucination_risk": "low", "event": "LLM \u81ea\u68c0\u5b8c\u6210", "logger": "app.core.self_checker", "level": "info", "timestamp": "2026-05-17T04:18:41.078796Z"}
+{"question": "\u952e\u8868\u9762\u4e0d\u5141\u8bb8\u6709\u54ea\u4e9b\u7f3a\u9677\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:18:54.834440Z"}
+{"chunks_found": 5, "top_score": 0.6442683840590331, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:18:54.849667Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"answer_length": 33, "sources_count": 5, "event": "\u7b54\u6848\u751f\u6210\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:18:55.930768Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"has_evidence": true, "confidence": 0.95, "hallucination_risk": "low", "event": "LLM \u81ea\u68c0\u5b8c\u6210", "logger": "app.core.self_checker", "level": "info", "timestamp": "2026-05-17T04:18:58.399719Z"}
+{"question": "\u952e\u7684\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42\u662f\u4ec0\u4e48\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:21:19.416593Z"}
+{"chunks_found": 5, "top_score": 0.5760701782364123, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:21:19.434595Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"answer_length": 5, "sources_count": 5, "event": "\u7b54\u6848\u751f\u6210\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:21:19.937704Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"has_evidence": false, "confidence": 0.0, "hallucination_risk": "low", "event": "LLM \u81ea\u68c0\u5b8c\u6210", "logger": "app.core.self_checker", "level": "info", "timestamp": "2026-05-17T04:21:22.978991Z"}
+{"question": "\u952e\u7684\u6297\u62c9\u5f3a\u5ea6\u8981\u6c42\u662f\u591a\u5c11\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:21:48.342005Z"}
+{"chunks_found": 5, "top_score": 0.7501266532261087, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:21:48.371471Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"answer_length": 34, "sources_count": 5, "event": "\u7b54\u6848\u751f\u6210\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:21:49.354541Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"has_evidence": true, "confidence": 0.95, "hallucination_risk": "low", "event": "LLM \u81ea\u68c0\u5b8c\u6210", "logger": "app.core.self_checker", "level": "info", "timestamp": "2026-05-17T04:21:52.822131Z"}
+{"question": "\u952e\u8868\u9762\u4e0d\u5141\u8bb8\u6709\u54ea\u4e9b\u7f3a\u9677\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:22:26.493383Z"}
+{"chunks_found": 5, "top_score": 0.6442683840590331, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:22:26.511741Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"answer_length": 37, "sources_count": 5, "event": "\u7b54\u6848\u751f\u6210\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:22:27.908077Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"has_evidence": true, "confidence": 0.95, "hallucination_risk": "low", "event": "LLM \u81ea\u68c0\u5b8c\u6210", "logger": "app.core.self_checker", "level": "info", "timestamp": "2026-05-17T04:22:31.257762Z"}
+{"question": "\u952e\u7684\u68c0\u67e5\u9879\u76ee\u548c\u5408\u683c\u8d28\u91cf\u6c34\u5e73\u662f\u4ec0\u4e48\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:23:55.456891Z"}
+{"chunks_found": 5, "top_score": 0.6804887024606984, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:23:55.575097Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"answer_length": 772, "sources_count": 5, "event": "\u7b54\u6848\u751f\u6210\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:24:08.373597Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"has_evidence": true, "confidence": 0.85, "hallucination_risk": "low", "event": "LLM \u81ea\u68c0\u5b8c\u6210", "logger": "app.core.self_checker", "level": "info", "timestamp": "2026-05-17T04:24:14.215411Z"}
+{"event": "\u5e94\u7528\u5173\u95ed", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T04:29:20.823751Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T04:34:00.194593Z"}
+{"doc_id": "9fefa015-2929-40d0-a1e8-93657ddbd590", "filename": "test.pdf", "event": "\u6536\u5230\u6587\u6863\u4e0a\u4f20", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T04:34:15.121950Z"}
+{"doc_id": "9fefa015-2929-40d0-a1e8-93657ddbd590", "page_count": 4, "event": "\u5c0f\u6587\u4ef6\u540c\u6b65\u5904\u7406", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T04:34:15.326251Z"}
+{"doc_id": "9fefa015-2929-40d0-a1e8-93657ddbd590", "filename": "test.pdf", "event": "\u5f00\u59cb\u5904\u7406\u6587\u6863", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T04:34:15.327292Z"}
+{"event": "docling \u5df2\u542f\u7528 OCR \u6a21\u5f0f\uff08\u8bed\u8a00: ch_sim + en, CPU\uff09", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T04:34:15.328210Z"}
+{"doc_id": "9fefa015-2929-40d0-a1e8-93657ddbd590", "filename": "test.pdf", "event": "\u5f00\u59cb\u89e3\u6790 PDF\uff08OCR \u6a21\u5f0f\uff09", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T04:34:15.328210Z"}
+Going to convert document batch...
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Processing document test.pdf
+Finished converting document test.pdf in 163.67 seconds.
+{"doc_id": "9fefa015-2929-40d0-a1e8-93657ddbd590", "json_path": "data\\json\\9fefa015-2929-40d0-a1e8-93657ddbd590.json", "event": "\u89e3\u6790\u7ed3\u679c\u5df2\u4fdd\u5b58", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T04:36:59.848452Z"}
+{"doc_id": "9fefa015-2929-40d0-a1e8-93657ddbd590", "parser": "docling-ocr", "page_count": 4, "text_blocks": 51, "tables": 1, "event": "PDF \u89e3\u6790\u5b8c\u6210", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T04:36:59.848452Z"}
+{"doc_id": "9fefa015-2929-40d0-a1e8-93657ddbd590", "total_chunks": 52, "text_chunks": 51, "table_chunks": 1, "event": "\u6587\u6863\u5206\u5757\u5b8c\u6210", "logger": "app.parser.chunker", "level": "info", "timestamp": "2026-05-17T04:36:59.991699Z"}
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+{"event": "\u521b\u5efa\u65b0 collection: doc_9fefa015-2929-40d0-a1e8-93657ddbd590", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-17T04:37:00.463035Z"}
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+{"doc_id": "9fefa015-2929-40d0-a1e8-93657ddbd590", "chunks_added": 52, "collection": "doc_9fefa015-2929-40d0-a1e8-93657ddbd590", "event": "\u6587\u6863\u5411\u91cf\u5df2\u5165\u5e93", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-17T04:37:06.912878Z"}
+{"doc_id": "9fefa015-2929-40d0-a1e8-93657ddbd590", "chunks_count": 52, "event": "\u6587\u6863\u5904\u7406\u5b8c\u6210", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T04:37:06.912878Z"}
+{"event": "\u5e94\u7528\u5173\u95ed", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T04:37:07.062824Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T04:39:36.416080Z"}
+{"doc_id": "6f8249a2-01ec-476d-b13a-5618298836c2", "filename": "GBT 1568-2008 \u952e \u6280\u672f\u6761\u4ef6.pdf", "event": "\u6536\u5230\u6587\u6863\u4e0a\u4f20", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T04:39:37.402762Z"}
+{"doc_id": "6f8249a2-01ec-476d-b13a-5618298836c2", "page_count": 4, "event": "\u5c0f\u6587\u4ef6\u540c\u6b65\u5904\u7406", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T04:39:37.959603Z"}
+{"doc_id": "6f8249a2-01ec-476d-b13a-5618298836c2", "filename": "GBT 1568-2008 \u952e \u6280\u672f\u6761\u4ef6.pdf", "event": "\u5f00\u59cb\u5904\u7406\u6587\u6863", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T04:39:37.972116Z"}
+{"event": "docling \u5df2\u542f\u7528 OCR \u6a21\u5f0f\uff08\u8bed\u8a00: ch_sim + en, CPU\uff09", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T04:39:37.973375Z"}
+{"doc_id": "6f8249a2-01ec-476d-b13a-5618298836c2", "filename": "GBT 1568-2008 \u952e \u6280\u672f\u6761\u4ef6.pdf", "event": "\u5f00\u59cb\u89e3\u6790 PDF\uff08OCR \u6a21\u5f0f\uff09", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T04:39:37.973375Z"}
+Going to convert document batch...
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Processing document GBT 1568-2008 键 技术条件.pdf
+Finished converting document GBT 1568-2008 键 技术条件.pdf in 140.20 seconds.
+{"doc_id": "6f8249a2-01ec-476d-b13a-5618298836c2", "json_path": "data\\json\\6f8249a2-01ec-476d-b13a-5618298836c2.json", "event": "\u89e3\u6790\u7ed3\u679c\u5df2\u4fdd\u5b58", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T04:41:59.095697Z"}
+{"doc_id": "6f8249a2-01ec-476d-b13a-5618298836c2", "parser": "docling-ocr", "page_count": 4, "text_blocks": 51, "tables": 1, "event": "PDF \u89e3\u6790\u5b8c\u6210", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T04:41:59.096709Z"}
+{"doc_id": "6f8249a2-01ec-476d-b13a-5618298836c2", "total_chunks": 52, "text_chunks": 51, "table_chunks": 1, "event": "\u6587\u6863\u5206\u5757\u5b8c\u6210", "logger": "app.parser.chunker", "level": "info", "timestamp": "2026-05-17T04:41:59.197594Z"}
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+{"event": "\u521b\u5efa\u65b0 collection: doc_6f8249a2-01ec-476d-b13a-5618298836c2", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-17T04:41:59.952037Z"}
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+{"doc_id": "6f8249a2-01ec-476d-b13a-5618298836c2", "chunks_added": 52, "collection": "doc_6f8249a2-01ec-476d-b13a-5618298836c2", "event": "\u6587\u6863\u5411\u91cf\u5df2\u5165\u5e93", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-17T04:42:05.619368Z"}
+{"doc_id": "6f8249a2-01ec-476d-b13a-5618298836c2", "chunks_count": 52, "event": "\u6587\u6863\u5904\u7406\u5b8c\u6210", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T04:42:05.620365Z"}
+{"question": "\u952e\u7684\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42\u662f\u4ec0\u4e48\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:42:30.084284Z"}
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+{"chunks_found": 5, "top_score": 0.5760701782364123, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:42:30.597619Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"answer_length": 5, "sources_count": 5, "event": "\u7b54\u6848\u751f\u6210\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:42:31.265270Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"has_evidence": false, "confidence": 0.2, "hallucination_risk": "low", "event": "LLM \u81ea\u68c0\u5b8c\u6210", "logger": "app.core.self_checker", "level": "info", "timestamp": "2026-05-17T04:42:36.106507Z"}
+{"question": "\u952e\u7684\u6297\u62c9\u5f3a\u5ea6\u8981\u6c42\u662f\u591a\u5c11\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:42:44.454921Z"}
+{"chunks_found": 5, "top_score": 0.7501266532261087, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:42:44.484766Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"answer_length": 34, "sources_count": 5, "event": "\u7b54\u6848\u751f\u6210\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:42:45.501812Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"has_evidence": true, "confidence": 0.9, "hallucination_risk": "low", "event": "LLM \u81ea\u68c0\u5b8c\u6210", "logger": "app.core.self_checker", "level": "info", "timestamp": "2026-05-17T04:42:48.420807Z"}
+{"question": "\u952e\u8868\u9762\u4e0d\u5141\u8bb8\u6709\u54ea\u4e9b\u7f3a\u9677\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:42:57.037703Z"}
+{"chunks_found": 5, "top_score": 0.6442683840590331, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:42:57.069941Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"answer_length": 34, "sources_count": 5, "event": "\u7b54\u6848\u751f\u6210\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:42:58.056122Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"has_evidence": true, "confidence": 0.95, "hallucination_risk": "low", "event": "LLM \u81ea\u68c0\u5b8c\u6210", "logger": "app.core.self_checker", "level": "info", "timestamp": "2026-05-17T04:43:00.372308Z"}
+{"question": "\u952e\u7684\u68c0\u67e5\u9879\u76ee\u548c\u5408\u683c\u8d28\u91cf\u6c34\u5e73\u662f\u4ec0\u4e48\uff1f\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:43:06.972287Z"}
+{"chunks_found": 5, "top_score": 0.6728473130572457, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:43:07.003972Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"answer_length": 497, "sources_count": 5, "event": "\u7b54\u6848\u751f\u6210\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T04:43:15.225548Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"has_evidence": true, "confidence": 0.75, "hallucination_risk": "low", "event": "LLM \u81ea\u68c0\u5b8c\u6210", "logger": "app.core.self_checker", "level": "info", "timestamp": "2026-05-17T04:43:19.607419Z"}
+{"event": "\u5e94\u7528\u5173\u95ed", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T04:47:31.320946Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T05:01:30.379451Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T05:02:01.581356Z"}
+{"event": "\u5e94\u7528\u5173\u95ed", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T05:08:00.860312Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T05:28:50.366439Z"}
+{"doc_id": "c703946f-a94e-4a59-a39f-76b42599518d", "filename": "GBT 1568-2008 \u952e \u6280\u672f\u6761\u4ef6.pdf", "event": "\u6536\u5230\u6587\u6863\u4e0a\u4f20", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T05:30:19.492906Z"}
+{"doc_id": "c703946f-a94e-4a59-a39f-76b42599518d", "page_count": 4, "event": "\u5c0f\u6587\u4ef6\u540c\u6b65\u5904\u7406", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T05:30:19.587757Z"}
+{"doc_id": "c703946f-a94e-4a59-a39f-76b42599518d", "filename": "GBT 1568-2008 \u952e \u6280\u672f\u6761\u4ef6.pdf", "event": "\u5f00\u59cb\u5904\u7406\u6587\u6863", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T05:30:19.587757Z"}
+{"event": "docling \u5df2\u542f\u7528 OCR \u6a21\u5f0f\uff08\u8bed\u8a00: ch_sim + en, CPU\uff09", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T05:30:19.589242Z"}
+{"doc_id": "c703946f-a94e-4a59-a39f-76b42599518d", "filename": "GBT 1568-2008 \u952e \u6280\u672f\u6761\u4ef6.pdf", "event": "\u5f00\u59cb\u89e3\u6790 PDF\uff08OCR \u6a21\u5f0f\uff09", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T05:30:19.589242Z"}
+Going to convert document batch...
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Processing document GBT 1568-2008 键 技术条件.pdf
+Finished converting document GBT 1568-2008 键 技术条件.pdf in 141.60 seconds.
+{"doc_id": "c703946f-a94e-4a59-a39f-76b42599518d", "json_path": "data\\json\\c703946f-a94e-4a59-a39f-76b42599518d.json", "event": "\u89e3\u6790\u7ed3\u679c\u5df2\u4fdd\u5b58", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T05:32:42.108125Z"}
+{"doc_id": "c703946f-a94e-4a59-a39f-76b42599518d", "parser": "docling-ocr", "page_count": 4, "text_blocks": 51, "tables": 1, "event": "PDF \u89e3\u6790\u5b8c\u6210", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T05:32:42.108125Z"}
+{"doc_id": "c703946f-a94e-4a59-a39f-76b42599518d", "total_chunks": 52, "text_chunks": 51, "table_chunks": 1, "event": "\u6587\u6863\u5206\u5757\u5b8c\u6210", "logger": "app.parser.chunker", "level": "info", "timestamp": "2026-05-17T05:32:42.195488Z"}
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+{"event": "\u521b\u5efa\u65b0 collection: doc_c703946f-a94e-4a59-a39f-76b42599518d", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-17T05:32:42.684763Z"}
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+{"doc_id": "c703946f-a94e-4a59-a39f-76b42599518d", "chunks_added": 52, "collection": "doc_c703946f-a94e-4a59-a39f-76b42599518d", "event": "\u6587\u6863\u5411\u91cf\u5df2\u5165\u5e93", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-17T05:32:48.228081Z"}
+{"doc_id": "c703946f-a94e-4a59-a39f-76b42599518d", "chunks_count": 52, "event": "\u6587\u6863\u5904\u7406\u5b8c\u6210", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T05:32:48.229090Z"}
+{"question": "\u952e\u7684\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42\u662f\u4ec0\u4e48\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:33:47.858037Z"}
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+{"chunks_found": 5, "top_score": 0.5760701782364123, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:33:48.030243Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+{"error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': '2134c8e3-4d78-9be8-8a51-48f62d53ffc0'}", "event": "\u751f\u6210\u8282\u70b9\u5f02\u5e38", "logger": "app.core.agent", "level": "error", "timestamp": "2026-05-17T05:33:48.176222Z"}
+{"question": "\u952e\u7684\u6297\u62c9\u5f3a\u5ea6\u8981\u6c42\u662f\u591a\u5c11\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:34:14.135617Z"}
+{"chunks_found": 5, "top_score": 0.7501266532261087, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:34:14.157592Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+{"error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': 'eb465ec3-e478-9df1-a57a-00f3d2e6c6c7'}", "event": "\u751f\u6210\u8282\u70b9\u5f02\u5e38", "logger": "app.core.agent", "level": "error", "timestamp": "2026-05-17T05:34:14.238343Z"}
+{"question": "\u952e\u8868\u9762\u4e0d\u5141\u8bb8\u6709\u54ea\u4e9b\u7f3a\u9677\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:34:28.164383Z"}
+{"chunks_found": 5, "top_score": 0.6442683840590331, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:34:28.193760Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+{"error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': 'c1053a00-3c8a-9114-ab09-fc4fff04c959'}", "event": "\u751f\u6210\u8282\u70b9\u5f02\u5e38", "logger": "app.core.agent", "level": "error", "timestamp": "2026-05-17T05:34:28.277089Z"}
+{"question": "\u952e\u8868\u9762\u4e0d\u5141\u8bb8\u6709\u54ea\u4e9b\u7f3a\u9677\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:37:33.245797Z"}
+{"chunks_found": 5, "top_score": 0.6442683840590331, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:37:33.280861Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+{"error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': '61640252-98df-9ad2-a62c-47c23d61c7c7'}", "event": "\u751f\u6210\u8282\u70b9\u5f02\u5e38", "logger": "app.core.agent", "level": "error", "timestamp": "2026-05-17T05:37:33.348297Z"}
+{"event": "\u5e94\u7528\u5173\u95ed", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T05:37:33.458310Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T05:38:07.420905Z"}
+{"event": "\u5e94\u7528\u542f\u52a8\u5b8c\u6210", "logger": "app.main", "level": "info", "timestamp": "2026-05-17T05:40:45.869195Z"}
+{"doc_id": "57b3eeb7-d9fe-4952-89ee-20c66eab8637", "filename": "GBT 1568-2008 \u952e \u6280\u672f\u6761\u4ef6.pdf", "event": "\u6536\u5230\u6587\u6863\u4e0a\u4f20", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T05:42:19.379607Z"}
+{"doc_id": "57b3eeb7-d9fe-4952-89ee-20c66eab8637", "page_count": 4, "event": "\u5c0f\u6587\u4ef6\u540c\u6b65\u5904\u7406", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T05:42:19.471795Z"}
+{"doc_id": "57b3eeb7-d9fe-4952-89ee-20c66eab8637", "filename": "GBT 1568-2008 \u952e \u6280\u672f\u6761\u4ef6.pdf", "event": "\u5f00\u59cb\u5904\u7406\u6587\u6863", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T05:42:19.472820Z"}
+{"event": "docling \u5df2\u542f\u7528 OCR \u6a21\u5f0f\uff08\u8bed\u8a00: ch_sim + en, CPU\uff09", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T05:42:19.473803Z"}
+{"doc_id": "57b3eeb7-d9fe-4952-89ee-20c66eab8637", "filename": "GBT 1568-2008 \u952e \u6280\u672f\u6761\u4ef6.pdf", "event": "\u5f00\u59cb\u89e3\u6790 PDF\uff08OCR \u6a21\u5f0f\uff09", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T05:42:19.474821Z"}
+Going to convert document batch...
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Processing document GBT 1568-2008 键 技术条件.pdf
+Finished converting document GBT 1568-2008 键 技术条件.pdf in 146.36 seconds.
+{"doc_id": "57b3eeb7-d9fe-4952-89ee-20c66eab8637", "json_path": "data\\json\\57b3eeb7-d9fe-4952-89ee-20c66eab8637.json", "event": "\u89e3\u6790\u7ed3\u679c\u5df2\u4fdd\u5b58", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T05:44:46.412582Z"}
+{"doc_id": "57b3eeb7-d9fe-4952-89ee-20c66eab8637", "parser": "docling-ocr", "page_count": 4, "text_blocks": 51, "tables": 1, "event": "PDF \u89e3\u6790\u5b8c\u6210", "logger": "app.parser.pdf_parser", "level": "info", "timestamp": "2026-05-17T05:44:46.413693Z"}
+{"doc_id": "57b3eeb7-d9fe-4952-89ee-20c66eab8637", "total_chunks": 52, "text_chunks": 51, "table_chunks": 1, "event": "\u6587\u6863\u5206\u5757\u5b8c\u6210", "logger": "app.parser.chunker", "level": "info", "timestamp": "2026-05-17T05:44:46.502684Z"}
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+{"event": "\u521b\u5efa\u65b0 collection: doc_57b3eeb7-d9fe-4952-89ee-20c66eab8637", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-17T05:44:46.978823Z"}
+Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+{"doc_id": "57b3eeb7-d9fe-4952-89ee-20c66eab8637", "chunks_added": 52, "collection": "doc_57b3eeb7-d9fe-4952-89ee-20c66eab8637", "event": "\u6587\u6863\u5411\u91cf\u5df2\u5165\u5e93", "logger": "app.core.retriever", "level": "info", "timestamp": "2026-05-17T05:44:52.306689Z"}
+{"doc_id": "57b3eeb7-d9fe-4952-89ee-20c66eab8637", "chunks_count": 52, "event": "\u6587\u6863\u5904\u7406\u5b8c\u6210", "logger": "app.core.document_service", "level": "info", "timestamp": "2026-05-17T05:44:52.306689Z"}
+{"question": "\u952e\u7684\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42\u662f\u4ec0\u4e48\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:45:29.962646Z"}
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+{"chunks_found": 5, "top_score": 0.5760701782364123, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:45:30.172079Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"answer_length": 5, "sources_count": 5, "event": "\u7b54\u6848\u751f\u6210\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:45:30.834645Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"has_evidence": false, "confidence": 0.1, "hallucination_risk": "low", "event": "LLM \u81ea\u68c0\u5b8c\u6210", "logger": "app.core.self_checker", "level": "info", "timestamp": "2026-05-17T05:45:34.672469Z"}
+{"question": "\u952e\u7684\u6297\u62c9\u5f3a\u5ea6\u8981\u6c42\u662f\u591a\u5c11\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:45:42.528653Z"}
+{"chunks_found": 5, "top_score": 0.7501266532261087, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:45:42.547624Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"answer_length": 36, "sources_count": 5, "event": "\u7b54\u6848\u751f\u6210\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:45:43.509407Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"has_evidence": true, "confidence": 0.95, "hallucination_risk": "low", "event": "LLM \u81ea\u68c0\u5b8c\u6210", "logger": "app.core.self_checker", "level": "info", "timestamp": "2026-05-17T05:45:46.788572Z"}
+{"question": "\u952e\u8868\u9762\u4e0d\u5141\u8bb8\u6709\u54ea\u4e9b\u7f3a\u9677\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:45:57.017613Z"}
+{"chunks_found": 5, "top_score": 0.6442683840590331, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:45:57.052995Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"answer_length": 33, "sources_count": 5, "event": "\u7b54\u6848\u751f\u6210\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:45:58.082916Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"has_evidence": true, "confidence": 0.95, "hallucination_risk": "low", "event": "LLM \u81ea\u68c0\u5b8c\u6210", "logger": "app.core.self_checker", "level": "info", "timestamp": "2026-05-17T05:46:00.382552Z"}
+{"question": "\u952e\u7684\u68c0\u67e5\u9879\u76ee\u548c\u5408\u683c\u8d28\u91cf\u6c34\u5e73\u662f\u4ec0\u4e48\uff1f\uff1f", "doc_ids": null, "event": "Agent \u68c0\u7d22\u8282\u70b9\u5f00\u59cb", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:46:13.935029Z"}
+{"chunks_found": 5, "top_score": 0.6728473130572457, "event": "\u68c0\u7d22\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:46:14.031397Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"answer_length": 497, "sources_count": 5, "event": "\u7b54\u6848\u751f\u6210\u5b8c\u6210", "logger": "app.core.agent", "level": "info", "timestamp": "2026-05-17T05:46:22.225835Z"}
+HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+{"has_evidence": true, "confidence": 0.75, "hallucination_risk": "low", "event": "LLM \u81ea\u68c0\u5b8c\u6210", "logger": "app.core.self_checker", "level": "info", "timestamp": "2026-05-17T05:46:26.613865Z"}

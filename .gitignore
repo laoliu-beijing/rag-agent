@@ -1,0 +1,21 @@
+# Environment variables
+.env
+
+# Database / Vector store
+chroma_db/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Directories
+docs/
+chroma_db/
+
+# Temporary / test files
+*.pdf
+response.json
+request.md
